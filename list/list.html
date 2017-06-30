@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/list.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+		<script type="text/javascript" src="js/ajax1.js"></script>
+		
+		<script type="text/javascript" src="js/list1.js"></script>
+		
+	</head>
+	<body >
+		<!--===========头部=================  -->
+		<header class = "margin">
+			<div id = "logo">
+				<a href = "#"><img src=" img/logo.jpg"/></a>
+			</div>
+			<div id = "right">
+				<a href = "#">登录</a>
+				<span>|</span>
+				<a href = "#">注册</a>
+				<span>|</span>
+				<a href="shopcar.html" class="te"><img src=" img/1.png">(<i class = "sc_num">0</i>)</a>  
+			</div>
+		</header>
+		<!--===========导航栏=================  -->
+	<nav id = "nav">
+		<ul id = "ul1" class = "layout">
+			<li class = "first set"><a href = "#">鲜花玫瑰</a></li>
+			<li class = "set"><a href = "#">永生玫瑰</a></li>
+			<li class = "set"><a href = "#">玫瑰珠宝</a></li>
+			<li class = "set"><a href = "#">生日推荐</a></li>
+			<li class = "set"><a href = "#">诺誓世界</a></li>
+			<li ><a href = "#">专卖店</a></li>
+			
+		</ul>
+		<!--===========第一个二级菜单=================  -->
+		<div class = "select1 get layout" id = "cai">
+			<ul class =  "left">
+				<li><a href = "#">玫瑰长盒</a></li>
+				<li><a href = "#">玫瑰手捧</a></li>
+				<li><a href = "#">玫瑰花篮</a></li>
+			</ul>
+			<span></span>
+			<ul class = "right">
+				<li class = "te"><a href = "#" >系列</a></li>
+				<li><a href = "#">经典永续</a></li>
+				<li><a href = "#">恒久真爱</a></li>
+				<li><a href = "#">爱在满怀</a></li>
+				<li><a href = "#">for all love</a></li>
+				<li><a href = "#">love roseonly</a></li>
+				<li><a href = "#">星座经典</a></li>
+			</ul>
+			<a href = "#" class="photo"><img src="img/w1.jpg" /></a>
+		</div>
+		<!--===========第二个二级菜单=================  -->
+		<div class = "select2 get layout" id = "cai">
+			<ul class =  "left">
+				<li><a href = "#">音乐玫瑰</a></li>
+				<li><a href = "#">玫瑰圆盒</a></li>
+				<li><a href = "#">玫瑰方盒</a></li>
+				<li><a href = "#">玫瑰心形盒</a></li>
+				<li><a href = "#">玫瑰六角盒</a></li>
+			</ul>
+			<span></span>
+			<ul class = "right">
+				<li class = "te"><a href = "#" >系列</a></li>
+				<li><a href = "#">for all love</a></li>
+				<li><a href = "#">经典永续</a></li>
+				<li><a href = "#">星座经典</a></li>
+				<li><a href = "#">全世爱</a></li>
+				<li><a href = "#">玫瑰熊</a></li>
+				<li><a href = "#">love roseonly</a></li>	
+			</ul>
+			<a href = "#" class="photo"><img src="img/w2.jpg" /></a>
+		</div>
+		<!--===========第三个二级菜单=================  -->
+		<div class = "select3 get layout" id = "cai">
+			<ul class =  "left">
+				<li><a href = "#">项链</a></li>
+				<li><a href = "#">手链</a></li>
+				<li><a href = "#">耳饰</a></li>
+				<li><a href = "#">戒指</a></li>
+				<li><a href = "#">结婚戒指</a></li>
+			</ul>
+			<span></span>
+			<ul class = "center">
+				<li class = "te"><a href = "#" >玫瑰珠宝</a></li>
+				<li><a href = "#">星座经典</a></li>
+				<li><a href = "#">玫瑰经典</a></li>
+				<li><a href = "#">幸运精灵</a></li>
+				<li><a href = "#">玫瑰熊</a></li>
+				<li><a href = "#">经典永续</a></li>
+				<li><a href = "#">生辰石</a></li>
+				<li><a href = "#">全心全意</a></li>
+			</ul>
+			<ul class = "right">
+				<li class = "te"><a href = "#" >玫瑰饰品</a></li>
+				<li><a href = "#">时光之吻</a></li>
+				<li><a href = "#">星座经典</a></li>
+				<li><a href = "#">钟情系列</a></li>
+				<li><a href = "#">全心全意</a></li>
+				<li><a href = "#">幸运精灵</a></li>
+				<li><a href = "#">玫瑰经典</a></li>
+				<li><a href = "#">经典永续</a></li>
+				<li><a href = "#">love roseonly</a></li>
+			</ul>
+			<a href = "#" class="photo"><img src="img/w3.jpg" /></a>
+		</div>
+		<!--===========第四个二级菜单=================  -->
+		<div class = "select4 get layout" id = "cai">
+			<ul class =  "left">
+				<li><a href = "#">音乐玫瑰</a></li>
+				<li><a href = "#">永生玫瑰</a></li>
+				<li><a href = "#">鲜花玫瑰</a></li>
+				<li><a href = "#">生辰石</a></li>
+				<li><a href = "#">十二生肖</a></li>
+				<li><a href = "#">礼品</a></li>
+				<li><a href = "#">男士礼品</a></li>
+				<li><a href = "#">送亲人朋友</a></li>
+			</ul>
+			<span></span>
+			<ul class = "center">
+				<li class = "te"><a href = "#" >当月星座</a></li>
+				<li><a href = "#">白羊座</a></li>
+				<li><a href = "#">双鱼座</a></li>
+				<li><a href = "#">巨蟹座</a></li>
+				<li><a href = "#">处女座</a></li>
+				<li><a href = "#">天蝎座</a></li>
+				<li><a href = "#">摩羯座</a></li>
+			</ul>
+			<ul class = "right">
+				<li><a href = "#">金牛座</a></li>
+				<li><a href = "#">双子座</a></li>
+				<li><a href = "#">狮子座</a></li>
+				<li><a href = "#">天秤座</a></li>
+				<li><a href = "#">射手座</a></li>
+				<li><a href = "#">水瓶座</a></li>
+			</ul>
+			<a href = "#" class="photo"><img src="img/w4.jpg" /></a>
+		</div>
+		<!--===========第五个二级菜单=================  -->
+		<div class = "select5 get layout" id = "cai">
+			<ul class =  "left">
+				<li><a href = "#">品牌故事</a></li>
+				<li><a href = "#">产品故事</a></li>
+				<li><a href = "#">明星时刻</a></li>
+				<li><a href = "#">真爱见证</a></li>
+				<li><a href = "#">活动咨询</a></li>
+				<li><a href = "#">诺誓百科</a></li>
+			</ul>
+			<span></span>
+			<ul class = "right">
+				<li class = "te"><a href = "#" >节日百科</a></li>
+				<li><a href = "#">情人节百科</a></li>
+				<li><a href = "#">母亲节百科</a></li>
+				<li><a href = "#">520百科</a></li>
+				<li><a href = "#">七夕节百科</a></li>
+				<li><a href = "#">圣诞节百科</a></li>	
+			</ul>
+			<a href = "#" class="photo"><img src="img/w5.jpg" /></a>
+		</div>
+	</nav>
+	<!--==============================banner========================-->
+	<section id = "banner" class = "margin">
+		<div class = "photo">
+			<img src="img/14839474376002893.jpg" />
+		</div>
+	</section>
+	<!--==============================综合选择========================-->
+	<div id = "toal" class = "margin">
+		<ul>
+			<li class = "first"><a href = "#">综合</a></li>
+			<li><a href = "#">销量</a></li>
+			<li><a href = "#">最新</a></li>
+			<li class = "te">
+				<a href = "#">价格</a>
+				<img src = "img/jiantou.jpg" class = "img1"/>
+				<img src = "img/jiantou1.jpg" class = "img2"/>
+			</li>
+		</ul>
+		<input type = "number" placeholder="￥" class = "input1">
+		<span>——</span>
+		<input type = "number" placeholder="￥" class = "input2">
+	</div>
+	<!--==============================详情列表========================-->
+	<ul id = "list" class = "margin">
+		<!--<li> 
+			<a href = "#"><img src="img/14950783864508631.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典朱砂 19支 80cm长形</p>
+			<i>￥1990.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798036334683554.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典朱砂 19支 80cm长形</p>
+			<i>￥1990.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975066171906916.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典许愿 11支 80cm长形</p>
+			<i>￥1990.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975086342504749.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久朱砂 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14866956860041747.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久朱砂 19支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903530662204573.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>小经典初恋 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14905846129552043.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久line朱砂 19支 40cm长形</p>
+			<i>￥1990.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14963695465428259.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典情动 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798703424216731.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典许愿 11支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903528153319294.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久初心 19支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950783443358706.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典朱砂 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14963694886658308.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典情动 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14797278686639062.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典情动 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14797278698933869.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典惊艳 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14343577854228793.png"></a>
+			<h4>鲜花玫瑰—星座经典系列</h4>
+			<p>巨蟹座巨蟹守护色 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975067264306266.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典初心 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14978442797136685.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久情动 19支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14343580671765377.png"></a>
+			<h4>鲜花玫瑰—星座经典系列</h4>
+			<p>巨蟹座巨蟹守护色 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14343628883135911.png"></a>
+			<h4>鲜花玫瑰—星座经典系列</h4>
+			<p>巨蟹座朱砂 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14343638058132311.png"></a>
+			<h4>鲜花玫瑰—星座经典系列</h4>
+			<p>巨蟹座朱砂 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14978444487659030.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>小经典情动 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975066749322576.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典初心 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975065463272110.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典许愿 19支 80cm长形</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14905846855614961.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久line朱砂 11支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14866960305626911.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS浪漫红 19支粉色盒 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798703045675230.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典许愿 19支 80cm长形</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798870200609921.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典初心 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903532095036575.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小经典初心 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14878430870629684.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS马卡龙粉 19支粉色盒 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903532095036575.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小经典初心 19支 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903530652567659.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>小经典初心 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14866956736232951.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久朱砂 11支 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798038089431221.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典朱砂 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798091962011813.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典约定 19支 80cm长形</p>
+			<i>￥1999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798863903135064.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典情动 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14861977479712033.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS浪漫红 11支粉色盒 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903528162603973.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久初恋 19支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903530662204573.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>小经典初恋 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903526011773461.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久初恋 11支 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14903530652567659.png"></a>
+			<h4>鲜花玫瑰—经典永续系列系列</h4>
+			<p>经典初心 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14798863912923341.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>经典约定 11支 80cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14878425418153518.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS马卡龙粉 11支蓝色盒 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14841889117002481.png"></a>
+			<h4>鲜花玫瑰—经典永续系列</h4>
+			<p>小经典朱砂 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14841889815645947.png"></a>
+			<h4>鲜花玫瑰—经典永续系列系列</h4>
+			<p>小经典朱砂 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14866960089191425.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS浪漫红 19支蓝色盒 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14861976488727235.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS浪漫红 11支蓝色盒 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14878426113829401.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS马卡龙粉 11支蓝色盒 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14878432656314717.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>LINEFRIENDS马卡龙粉 11支粉色盒 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14870699174065718.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>恋爱时光纯真白 9支蓝色盒透明盒 40cm长形</p>
+			<i>￥799.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14870699184252878.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>恋爱时光害羞粉 9支蓝色透明盒 40cm长形</p>
+			<i>￥799.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14870700109375112.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>恋爱时光害羞粉 9支粉色透明盒 40cm长形</p>
+			<i>￥799.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14870700117095206.png"></a>
+			<h4>鲜花玫瑰—基础系列系列</h4>
+			<p>恋爱时光纯真白 9支粉色盒透明盒 40cm长形</p>
+			<i>￥799.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14861963716688802.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>恋爱时光浪漫红  9支蓝色盒透明盒 40cm长形</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14861963866082510.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>恋爱时光浪漫红 9支粉色透明盒 40cm长形</p>
+			<i>￥799.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14942406583755658.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧许愿  99支 80cm手捧</p>
+			<i>￥9999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14942410576934088.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧朱砂 99支 80cm手捧</p>
+			<i>￥6999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950782128005680.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧朱砂  11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950782137643568.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心 11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950782146063562.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动  11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950782155198109.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧约定 11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950778543802491.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧朱砂  19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950778553517221.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动 19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950778562132653.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心  19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950778570704897.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧约定 19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950774234904685.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧朱砂  33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950774244415628.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动 33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950774253695199.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心  33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950774262842054.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧约定 33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950761932304413.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧许愿  33支 80cm手捧</p>
+			<i>￥3999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950758984599756.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧朱砂 99支 80cm手捧</p>
+			<i>￥6999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950758445545342.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧许愿  99支 80cm手捧</p>
+			<i>￥9999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950757652268902.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮朱砂 27支 小型圆桶</p>
+			<i>￥2699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950757663022115.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮初心  27支 小型圆桶</p>
+			<i>￥2699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950757683646478.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮初心 27支 小型圆桶</p>
+			<i>￥2699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950752766256400.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮朱砂  52支 大型圆桶</p>
+			<i>￥4699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950752778964695.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮朱砂 52支 大型圆桶</p>
+			<i>￥4699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14950752800291946.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮初心  52支 大型圆桶</p>
+			<i>￥4699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975087726061269.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久朱砂 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975087736107147.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久初心  11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975087746807290.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久情动 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975086353043995.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久初心  19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975086364367160.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>恒久情动 19支 40cm长形</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14978442260953701.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小恒久情动  11支 40cm长形</p>
+			<i>￥999.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14978443903121030.png"></a>
+			<h4>鲜花玫瑰—恒久真爱系列</h4>
+			<p>小经典情动 11支 40cm长形</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975072011406216.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心  33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975072020027236.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动 33支 80cm手捧</p>
+			<i>￥2399.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975073066518251.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心  19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975073075561932.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动 19支 80cm手捧</p>
+			<i>￥1520.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975084113727441.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧初心  11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975084121978620.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>手捧情动 11支 80cm手捧</p>
+			<i>￥1314.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975069878593299.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮初心  52支 40cm圆桶</p>
+			<i>￥4699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975069889077543.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮情动 52支 40cm圆桶</p>
+			<i>￥4699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975070879999485.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮初心  27支 40cm圆桶</p>
+			<i>￥2699.0</i>
+		</li>
+		<li> 
+			<a href = "#"><img src="img/14975070890074624.png"></a>
+			<h4>鲜花玫瑰—爱在满怀系列</h4>
+			<p>花篮情动 27支 40cm圆桶</p>
+			<i>￥2699.0</i>
+		</li>-->
+	</ul>
+	<!--==============================last second========================-->
+<div id = "last" class = "margin">
+	<div class = "bottom">
+		<div class = "bl">
+			<img src="img/last1.jpg">
+			<div class = "page">
+				<p>全场包邮</p>
+				<span>特殊礼品除外</span>
+			</div>
+		</div>
+		<div class = "b2">
+			<img src="img/last2.jpg">
+			<div class = "page">
+				<p>同城速递</p>
+				<span>支持当日送达</span>
+			</div>
+		</div>
+		<div class = "b3">
+			<img src="img/last3.jpg">
+			<div class = "page">
+				<p>爱的誓言</p>
+				<span>支持语音与文字，可随时查阅</span>
+			</div>
+		</div>
+		<div class = "b4">
+			<img src="img/last4.jpg">
+			<div class = "page">
+				<p>保养物语</p>
+				<span>悉心保养，恒久保存爱意</span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==============================friendship========================-->
+<div id = "friendship" class = "margin">
+	<div class = "fl">
+		<div class = "fl1">
+			<a href = "#"><img src="img/logo.jpg"></a>
+			<i>关于我们
+				<img src="img/14678074190065428.png" class = "block"/>
+				<a href = "#"><img src="img/14652897713466258.png" /></a>
+			</i>
+		</div>
+		<ul class = "fl2">
+			<li class = "first" >新手指南</li>
+			<li>购物流程</li>
+			<li>支付方式</li>
+			<li>常见问题</li>
+			<li>指圈测量</li>
+		</ul>
+		<span></span>
+	</div>
+	<div class = "f2">
+		<ul>
+			<li class = "first" >售后服务</li>
+			<li>退款说明</li>
+			<li>保养物语</li>
+		</ul>
+		<span></span>
+	</div>
+	<div class = "f3">
+		<ul>
+			<li class = "first" >物流配送</li>
+			<li>配送方式</li>
+			<li>配送服务</li>
+		</ul>
+		<span></span>
+	</div>
+	<div class = "f4">
+		<ul>
+			<li class = "first" >关于我们</li>
+			<li>品牌介绍</li>
+			<li>联系我们</li>
+			<li>加入我们</li>
+		</ul>
+	</div>
+	<div class = "f5">
+		<div class = "f5l">
+			<img src="img/14925880778895795.png" />
+			<p>微信关注roseonly</p>
+		</div>
+		<div class = "f5r">
+			<img src="img/14925880608342709.png"/>
+			<p>roseonly官网</p>
+		</div>
+	</div>
+	<img src="img/block.jpg" class = "none">
+</div>
+<!--==============================footer========================-->
+<footer>
+	<p>京ICP13007738号 京公网安备11010502023922 www.roseonly.com.cn; 诺誓(北京)商业股份有限公司</p>
+</footer>
+<!--===========================回到顶部========================-->
+<div id = "aside">
+	<div class = "first"><a href = "#"><img src="img/aside1.jpg" /></a></div>
+	<div class = "second"><a href = "#"><img src="img/aside2.jpg" /></a></div>
+	<div class="upper" class = "cu"><img src="img/aside3.jpg" /></div>
+	<img src="img/14945591218222010.png"  class = "a1"/>
+	<img src="img/aside2-1.png" class = "a2" />
+</div>
+<!--===========================下滑导航条========================-->
+<nav id = "nav2">
+	<div class = "margin nt ">
+		<div class = "left1 ">
+			<a href = "#"><img src="img/Minlogo.jpg"/></a>
+		</div>
+		<ul id = "ul3" class = "layout">
+				<li class = "first set"><a href = "#">鲜花玫瑰</a></li>
+				<li class = "set"><a href = "#">永生玫瑰</a></li>
+				<li class = "set"><a href = "#">玫瑰珠宝</a></li>
+				<li class = "set"><a href = "#">生日推荐</a></li>
+				<li><a href = "#">专卖店</a></li>
+				<li class = "set"><a href = "#">诺誓世界</a></li>
+		</ul>
+		<div class = "right1">
+			<a href = "#">登录</a>
+			<span>|</span>
+			<a href = "#">注册</a>
+			<span>|</span>
+			<a href="shopcar.html" class="te"><img src="img/suo.jpg">(<i class = "sc_num">0</i>)</a>  
+		</div>
+	</div>
+</nav>
+	</body>
+</html>

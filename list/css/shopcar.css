@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.margin{width:1240px;margin:0 auto;}
+.margin1{width:962px; margin:0 auto}
+/********************************* 头部***********************************/
+header{height:80px;border-bottom: 2px solid #83847e; }
+header #logo img{float:left; margin-left: 518px; margin-top: 17px; }
+header #right{float:right; font:16px/50px ""; margin-top:29px}
+header #right span{margin-left:3px;}
+header #right .activa:hover{font:700 12px/53px "";color:#000;}
+header #right .te{transition:.5s linear all;}
+header #right .te img{width:12px;height:16px;margin-right:6px;margin-top:-5px;}
+header #right .te img:hover{transform:scale(1.2,1.2);}
+#solid{height:4px; border-top: 4px solid #414141;}
+/*********************************购物车***********************************/
+#help{ border-bottom:2px solid #83847e;margin-bottom:3px;}
+#help .top{height:36px;margin-top:33px;}
+#help .top span{display:block;float:left;font-size:24px;line-height: 36px;}
+#help .top button{margin-left:662px;border:none; float:left;background: none;font-size:14px;line-height: 33px;}
+#help .top button img{margin-right:7px}
+/*#help1{margin-left:170px}*/
+#help1 table{height:auto;border-bottom:1px solid #000;width:962px}
+#help tbody{font:16px/30px "";}
+#help .title{border:1px solid #000; border-left:none; border-right:none;}
+#help tbody tr{text-align: center;}
+/*#help tbody tr td input{border:none;border:1px solid #414141;width:66px;height:20px;text-align:center;}*/
+.list{overflow:hidden}
+.list  .photo {margin-right:28px;float:left;width:100px; height: 100px;}
+.list .photo {background:url(../img/14343577854228793.png) center no-repeat;background-size: cover;width:100px; height:100px}
+.list .t1{line-height:120px;float:left;display:inline-block; width:110px;height:120px; text-align:center}
+.list .t2{text-align:center;line-height:120px;float:left;display:inline-block; width:110px;}
+.list i{float:left;font:16px/120px "";margin-right:50px;}
+.list .pice{float:left;font:14px/120px ""; text-align: center;}
+.list .number {margin-right:34px;float:left;line-height:120px;margin-left: 22px;}
+.list .number input{border:none;width:66px; height:18px; border:1px solid #000000;text-align: center;}
+.list .btn1{float:left;border: none;background: none;margin-top:50px}
+/*#help1 .photo{display:block;width:100px; height:100px}*/
+#help tbody tr td:last-child a{color:#000}
+#help2{min-height:200px;height:auto}
+#help2 .ht{height:41px;margin-left:690px;margin-top:150px}
+#help2 .ht i{font:20px/40px "";color:#414141;}
+#help2 .ht span{font:700 16px/40px ""; color:#414141;margin-right:28px}
+#help2 button{border:none;width:110px;height:40px;background:#c71f2c;color:#fff;font-size:20px}
+.help p:nth-child(1){font-size:20px;}
+.help p{font:12px/27px "";}
+.help p:nth-child(2){margin-top:13px}
+/*********************************last second***********************************/
+#last{border-bottom: 1px solid #e6e6e6; height:102px;padding-bottom:37px;border-top:1px solid #83847e}
+#last .bottom{display:flex; justify-content:space-between;margin:44px 60px 0 58px}
+#last .bottom  img{float:left}
+#last .bottom .page{float:left; margin-left:12px; margin-top:3px}
+#last .bottom .page p{font:22px/32px "";margin-bottom: 5px;}
+#last .bottom .page span{font:14px/20px "";}
+/*********************************friendship***********************************/
+#friendship{height:212px; padding-top:73px;position:relative;}
+#friendship>.none{position: absolute;left:404px;top:-300px;display:none}
+#friendship .fl .fl1{float:left ; margin-right:72px;margin-bottom:45px}
+#friendship .fl span{float:left; margin:21px 60px 0 60px;display:block;height:126px; background:#ebebeb; width:1px}
+#friendship .fl .fl1 i{display:block; font:16px/39px "";margin-top:30px}
+#friendship .fl .fl1 i img:first-child{margin-left: 16px}
+#friendship .s1{height:127px; width:1px; background:#ebebeb; }
+#friendship .fl .fl2{float:left;}
+#friendship .first{font:16px/26px "";margin-bottom: 20px;}
+#friendship li{font:14px/29px "";}
+#friendship .f2{float:left;}
+#friendship .f2 ul{float:left;margin-right: 60px;}
+#friendship .f2 span{margin-right:60px;float:left; display:block;height:103px; background:#ebebeb; width:1px}
+#friendship .f3{float:left;}
+#friendship .f3 ul{float:left;}
+#friendship .f3 span{margin: 0 60px;float:left; display:block;height:103px; background:#ebebeb; width:1px}
+#friendship .f4{float:left;}
+#friendship .f4 ul{float:left;margin-right:99px}
+#friendship .f5{display:flex;float:left; justify-content: space-between;}
+#friendship .f5 img{display:block; width:110px; height:110px}
+#friendship .f5 .f5l{float:left;margin-right: 20px;}
+#friendship .f5 .f5r{float:left}
+#friendship .f5 p{font:14px/28px "";}
+/*********************************footer***********************************/
+footer{height:45px; background:#414141;  font:12px/45px "";color:#fff; text-align:center}
+#aside{position:fixed; right:0; height:170px; width:50px; bottom:45px}
+#aside .first{width:50px;height:50px; margin-bottom:11px;opacity: 0.5;}
+#aside .first:hover{opacity: 1}
+#aside .second{width:50px;height:50px; margin-bottom:11px;opacity: 0.5}
+#aside .second:hover{opacity: 1}
+#aside .a1{z-index:333;position:absolute; right:50px;bottom:75px;display:none}
+#aside .a2{z-index:333;position:absolute; right:50px;bottom:25px;display: none;}
